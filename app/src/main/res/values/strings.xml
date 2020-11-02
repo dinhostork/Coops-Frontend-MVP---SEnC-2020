@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SEnC Cegonheiros</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="materias_tabs">
+        <item>Fórum</item>
+        <item>Grupos</item>
+    </string-array>
+</resources>

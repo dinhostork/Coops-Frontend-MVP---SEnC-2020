@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ponto_cor_materia"
+        android:backgroundTint="@color/blueDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <View
+        android:layout_width="2dp"
+        android:layout_height="45dp"
+        android:background="@color/blueDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView" />
+    <TextView
+        android:id="@+id/textView_nome_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Curso de Inteligência Artificial"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="18 de ago de 2019"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView_nome_evento"
+        app:layout_constraintTop_toBottomOf="@+id/textView_nome_evento" />
+    <TextView
+        android:id="@+id/textView_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:00 - 12:00"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView_nome_evento"
+        app:layout_constraintTop_toBottomOf="@+id/textView_data" />
+</androidx.constraintlayout.widget.ConstraintLayout>
