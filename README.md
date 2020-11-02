@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/logo.png" width="600"/></p>
+<p align="center"><img src="docs/logo.png" width="200"/></p>
 
 ## Sozinho você aprende, junto você domina!
 `COOPs` é uma plataforma de aprendizado cooperativo entre estudantes universitários.
